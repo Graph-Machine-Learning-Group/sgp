@@ -16,7 +16,7 @@ from tsl.utils import TslExperiment, ArgParser, parser_utils, numpy_metrics
 from tsl.utils.parser_utils import str_to_bool
 
 import lib
-from lib.nn.encoders import (SGPSpatialEncoder, GESNEncoder, SGPEncoder)
+from lib.nn.encoders import GESNEncoder
 from lib.utils import encode_dataset
 
 
@@ -42,11 +42,7 @@ def get_splitter(dataset_name):
 
 
 def get_encoder_class(encoder_name):
-    if encoder_name == 'sgp':
-        encoder = SGPEncoder
-    elif encoder_name == 'space':
-        encoder = SGPSpatialEncoder
-    elif encoder_name == 'gesn':
+    if encoder_name == 'gesn':
         encoder = GESNEncoder
     else:
         raise ValueError(f"Encoder {encoder_name} not available.")
