@@ -1,0 +1,26 @@
+#### Dataset params ###########################################################
+window: 36
+horizon: 22
+horizon_lag: 7
+
+dataset_name: cer
+adj_knn: 100
+
+#### Training params ##########################################################
+batch_size: 4
+batch_inference: 8
+
+epochs: 924
+batches_epoch: 32
+scale_target: False
+
+lr: 0.001
+use_lr_schedule: False
+
+#### Model params #############################################################
+hidden_size: 64
+enc_layers: 2
+gnn_layers: 2
+full_graph: False
+positional_encoding: True
+activation: 'silu'

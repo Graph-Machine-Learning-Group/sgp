@@ -1,0 +1,26 @@
+#### Dataset params ###########################################################
+window: 36
+horizon: 22
+horizon_lag: 7
+
+dataset_name: pv
+
+#### Training params ##########################################################
+batch_size: 1
+batch_inference: 1
+max_edges: 2500000
+cut_edges_uniformly: True
+
+epochs: 993
+batches_epoch: 32
+
+lr: 0.001
+use_lr_schedule: False
+
+#### Model params #############################################################
+hidden_size: 64
+enc_layers: 2
+gnn_layers: 2
+full_graph: False
+positional_encoding: True
+activation: 'silu'

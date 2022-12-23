@@ -1,0 +1,45 @@
+#### Windowing params #########################################################
+window: 1
+horizon: 12
+
+#### Reservoir params #########################################################
+reservoir_size: 128
+reservoir_layers: 1  # 4
+leaking_rate: 0.8
+spectral_radius: 0.9
+density: 0.7
+alpha_decay: True
+preprocess_exogenous: True
+keep_raw: True
+
+#### SGP params ##############################################################
+bidirectional: True
+receptive_field: 0
+undirected: False
+add_self_loops: False
+global_attr: False
+
+#### Performance params #######################################################
+iid_sampling: False
+sgp_preprocessing: False
+batch_size: 64
+batch_inference: 64
+
+#### Training params ##########################################################
+l2_reg: 0.
+use_lr_schedule: True
+lr_milestones: [ 100, 150 ]
+lr: 0.0035
+epochs: 200
+patience: 100
+batches_epoch: 300
+workers: 4
+
+#### Model params #############################################################
+hidden_size: 960
+mlp_size: 256
+n_layers: 2
+dropout: 0.3
+positional_encoding: True
+resnet: true
+fully_connected: False

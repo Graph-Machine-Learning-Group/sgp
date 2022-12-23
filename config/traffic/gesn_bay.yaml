@@ -1,0 +1,16 @@
+#### Windowing params #########################################################
+window: 1
+horizon: 12
+
+#### Training params ##########################################################
+workers: 4
+l2_reg: 0.001
+
+#### SGP params ##############################################################
+reservoir_layers: 4
+reservoir_size: 128
+leaking_rate: 0.9
+spectral_radius: 0.9
+density: 1.
+preprocess_exogenous: true
+alpha_decay: true

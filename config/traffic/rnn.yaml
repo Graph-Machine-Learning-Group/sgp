@@ -1,0 +1,26 @@
+#### Windowing params #########################################################
+window: 12
+horizon: 12
+
+#### Splitting params #########################################################
+val_len: 0.1
+test_len: 0.2
+
+#### Training params ##########################################################
+batch_size: 64
+epochs: 300
+patience: 50
+
+lr: 0.001
+use_lr_schedule: True
+lr_gamma: 0.1
+lr_milestones: [ 20 ]
+
+#### Model params #############################################################
+hidden_size: 128
+ff_size: 256
+rec_layers: 1
+ff_layers: 1
+rec_dropout: 0
+ff_dropout: 0.1
+cell_type: 'lstm'

@@ -1,0 +1,48 @@
+#### Dataset params ###########################################################
+window: 1
+horizon: 22
+horizon_lag: 7
+
+dataset_name: cer
+adj_knn: 100
+
+#### Reservoir params #########################################################
+reservoir_size: 16
+reservoir_layers: 6
+leaking_rate: 1.
+spectral_radius: 0.99
+density: 0.7
+alpha_decay: True
+preprocess_exogenous: True
+keep_raw: True
+
+#### SGP params ##############################################################
+bidirectional: False
+receptive_field: 2
+undirected: False
+add_self_loops: False
+global_attr: True
+
+#### Training params ##########################################################
+iid_sampling: True
+sgp_preprocessing: False
+workers: 16
+batch_size: 4096
+batch_inference: 16
+
+epochs: 12980  # 1:00:00 - 1:00 of 13199
+batches_epoch: 32
+scale_target: False
+
+lr: 0.001
+use_lr_schedule: False
+
+#### Model params #############################################################
+emb_size: 32
+hidden_size: 960
+mlp_size: 256
+n_layers: 2
+dropout: 0.
+positional_encoding: True
+resnet: True
+fully_connected: False

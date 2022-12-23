@@ -1,0 +1,29 @@
+#### Dataset params ###########################################################
+window: 36
+horizon: 22
+horizon_lag: 7
+
+dataset_name: cer
+adj_knn: 500
+
+#### Training params ##########################################################
+batch_size: 1
+batch_inference: 6
+
+epochs: 142
+batches_epoch: 32
+
+lr: 0.001
+use_lr_schedule: False
+
+#### Model params #############################################################
+hidden_size: 32
+ff_size: 256
+n_layers: 8
+dropout: 0.3
+temporal_kernel_size: 2
+spatial_kernel_size: 2
+dilation: 2
+dilation_mod: 2
+norm: batch
+learned_adjacency: True
