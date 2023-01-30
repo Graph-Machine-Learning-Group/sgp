@@ -4,7 +4,7 @@
 [![PDF](https://img.shields.io/badge/%E2%87%A9-PDF-orange.svg?style=flat-square)](https://arxiv.org/pdf/2209.06520)
 [![arXiv](https://img.shields.io/badge/arXiv-2209.06520-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2209.06520)
 
-This repository contains the code for the reproducibility of the experiments presented in the paper "Scalable Spatiotemporal Graph Neural Networks" (AAAI 2023). The Scalable Graph Predictor (SGP) is a scalable architecture to process spatiotemporal time series coming from large sensor networks by expliting a training-free spatiotemporal encoder.
+This repository contains the code for the reproducibility of the experiments presented in the paper "Scalable Spatiotemporal Graph Neural Networks" (AAAI 2023). The Scalable Graph Predictor (SGP) is a scalable architecture to process spatiotemporal time series coming from large sensor networks by exploiting a training-free spatiotemporal encoder.
 
 **Authors**: [Andrea Cini](mailto:andrea.cini@usi.ch), [Ivan Marisca](mailto:ivan.marisca@usi.ch), Filippo Maria Bianchi, Cesare Alippi
 
