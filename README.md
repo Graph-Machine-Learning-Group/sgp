@@ -1,6 +1,6 @@
 # Scalable Spatiotemporal Graph Neural Networks (AAAI 2023 - [pdf](https://github.com/Graph-Machine-Learning-Group/sgp/raw/main/sgp_paper.pdf))
 
-[![ICLR](https://img.shields.io/badge/AAAI-2023-blue.svg?style=flat-square)](#)
+[![AAAI](https://img.shields.io/badge/AAAI-2023-blue.svg?style=flat-square)](https://ojs.aaai.org/index.php/AAAI/article/view/25880)
 [![PDF](https://img.shields.io/badge/%E2%87%A9-PDF-orange.svg?style=flat-square)](https://github.com/Graph-Machine-Learning-Group/sgp/raw/main/sgp_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2209.06520-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2209.06520)
 
@@ -107,7 +107,7 @@ The scripts used for the experiments in the paper are in the `experiments` folde
 
 If you find this code useful please consider to cite our paper:
 
-```
+```bibtex
 @article{cini2023scalable,
   title={Scalable Spatiotemporal Graph Neural Networks},
   author={Cini, Andrea and Marisca, Ivan and Bianchi, Filippo Maria and Alippi, Cesare},
